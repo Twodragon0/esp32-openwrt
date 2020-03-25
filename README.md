@@ -1,11 +1,13 @@
 # esp32-openwrt
 ESP32-MDF (ESP-Mesh) and OpenWrt Socket using python3
 
-##Install
+## Install
 
 Install with python3 in OpenWrt:
 ```sh
+opkg update
 opkg install python3-pip
+
 ```
 Install with pip:
 
@@ -13,11 +15,14 @@ Install with pip:
 pip3 install ipfshttpclient
 ```
 
+raspberry pi USB storage in OpenWrt:
+https://openwrt.org/docs/guide-user/storage/usb-drives
+
 ## Socket communication ESP-OpenWrt using python3
 
 1. Socket Communication between ESP32 and OpenWrt
-2. Convert ESP data to txt file
-3. ESP Mac address data and message
+2. Gathering ESP data file
+3. We can show ESP Mac address data and message in text file
 
 ```sh
 python3 socket_server.py
