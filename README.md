@@ -28,7 +28,7 @@ https://openwrt.org/docs/guide-user/storage/usb-drives
 python3 socket_server.py
 ```
 
-## Connect IPFS-OpenWrt using python3 (Working)
+## Connect OpenWrt-IPFS using python3
 
 Convert txt file to IPFS (working)
 
@@ -40,3 +40,5 @@ Convert txt file to IPFS (working)
 python3 ipfs_http_client.py
 ```
 
+Result: IPFS hash
+Qm <hash> 
