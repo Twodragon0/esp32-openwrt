@@ -6,7 +6,7 @@ ESP32-MDF (ESP-Mesh) and OpenWrt Socket using python3
 Install with python3 in OpenWrt:
 ```sh
 opkg update
-opkg install python3-pip
+opkg install python3 git python3-pip
 git clone -b v1.0 https://github.com/Twodragon0/esp32-openwrt.git
 ```
 Install with pip:
