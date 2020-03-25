@@ -7,7 +7,7 @@ Install with python3 in OpenWrt:
 ```sh
 opkg update
 opkg install python3-pip
-
+git clone -b v1.0 https://github.com/Twodragon0/esp32-openwrt.git
 ```
 Install with pip:
 
