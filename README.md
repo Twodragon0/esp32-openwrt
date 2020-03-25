@@ -1,6 +1,18 @@
 # esp32-openwrt
 ESP32-MDF (ESP-Mesh) and OpenWrt Socket using python3
 
+##Install
+
+Install with python3 in OpenWrt:
+```sh
+opkg install python3-pip
+```
+Install with pip:
+
+```sh
+pip3 install ipfshttpclient
+```
+
 ## Socket communication ESP-OpenWrt using python3
 
 1. Socket Communication between ESP32 and OpenWrt
