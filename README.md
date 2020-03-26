@@ -37,6 +37,7 @@ Convert txt file to IPFS (working)
 3. Convert All ESP data to IPFS
 
 ```sh
+ipfs daemon &
 python3 ipfs_http_client.py
 ```
 
