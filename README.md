@@ -54,5 +54,6 @@ python3 ipfs_http_client.py
 Result: IPFS hash    
 Qm <hash>     
 
-## esp-mdf toolchain error version - release v3.2.2:    
+## Error solutions
+esp-mdf toolchain error version - release v3.2.2:    
 https://github.com/espressif/esp-mdf/issues/66
